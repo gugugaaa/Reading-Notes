@@ -6,7 +6,7 @@ def rename_images_and_update_md():
     # 1. 获取所有图片文件
     image_dir = Path("images/deep_learning_for_vision_systems")
     image_dir.mkdir(parents=True, exist_ok=True)
-    images = list(Path(".").glob("*.png"))
+    images = list(Path("Deep-Learning-for-Vision-Systems").glob("*.png"))
     
     # 获取现有的图片数量
     existing_images = list(image_dir.glob("image_rename*.png"))
