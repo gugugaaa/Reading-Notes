@@ -132,3 +132,140 @@ ai元年 → 机器翻译 → 发展停滞（1970-1980）→ 统计学习（1990
 - 代码生成：Github Copilot（Codex）
 - 搜索引擎优化：Perplexity
 - 聊天机器人：ChatGPT
+
+## 声音领域的AIGC
+### 语音合成（TTS）
+机械合成 → 规则合成 → 拼接合成 → 深度学习合成 → WaveNet → Tacotron → FastSpeech → MelGAN → HiFi-GAN
+
+
+
+#### 基础模型
+* **WaveNet**
+  - 采用因果卷积（Causal Convolution）结构
+  - 特点：只能看到"过去"的数据
+  - 原理：通过限制卷积核的接受范围实现因果性限制
+
+* **Tacotron**
+  - 基于 Seq2Seq 架构
+  - 功能：将文本转换成语音频谱（如梅尔频谱）
+  - 特点：类似 Transformer 的 Encoder-Decoder 架构，引入注意力机制
+
+#### 改进模型
+* **FastSpeech**
+  - 非自回归模型架构
+  - 优势：
+    - 支持并行处理
+    - 适用于实时语音生成
+    - 无需等待前一帧结果
+
+#### GAN系列模型
+* **MelGAN 和 HiFi-GAN**
+  - 基于 GAN 的语音合成模型
+  - 特点：
+    - 采用对抗训练方式
+    - 生成真实度高的语音
+    - 处理速度快
+    - 可控性相对较差
+
+#### Transformer 系列模型
+* **MuseNet**
+  - 基于 Transformer 架构
+  - 功能：生成音乐
+  - 特点：支持多种音乐风格的生成
+
+## 图像领域的AIGC
+（主要是图像生成）
+
+#### CLIP（Contrastive Language–Image Pretraining）
+- 由OpenAI发布
+- 多模态学习（Transformers架构）
+    - 图像编码器：ViT
+    - 文本编码器：BERT
+- **对比学习**：让图像和文本的表示在**联合嵌入空间**中更接近
+
+#### DALL·E 2
+- 由OpenAI发布
+- 扩散模型（diffusion 架构）+ CLIP
+
+> CLIP本身没有生成能力，但可以“搜索”，在生成的过程中提供语义上的指导
+
+#### Stable Diffusion
+
+## 视频领域的AIGC
+（还有视频后处理等等就不列举了）
+#### DeepFake
+- 特效合成技术
+- GAN和VAE的结合
+
+#### First Order Motion Model
+- 驱动图像生成视频
+
+#### GANimation
+- 面部表情合成
+
+#### Sora
+- 时空建模：能捕捉到帧之间的运动（Transformers架构）
+
+## AIGC的相关产业和生态发展
+#### 整体架构
+- 基础层：计算资源、AI框架、数据集
+- 算法层：自研多模态大模型
+- 应用层：AI产品、AI服务、AI应用
+- 商业生态：AI产业链、AI生态圈
+### 基础层：
+#### 计算资源
+- 云端训练
+- 云端推理
+- 本地推理
+
+#### AI框架
+- TensorFlow
+- PyTorch
+
+#### 大规模数据集
+- LAION
+- Common Crawl
+- COCO
+
+### 模型层：
+#### NLP模型
+- OpenAI - GPT-4 / ChatGPT
+- DeepMind - Gemini
+- Anthropic - Claude
+- Meta - Llama
+
+#### 图像模型/视频模型
+- OpenAI - CLIP / DALL·E / Sora
+- DeepMind - Imagen
+- Stablity AI - Stable Diffusion
+
+#### 语音模型
+- OpenAI - Whisper
+- DeepMind - WaveNet
+- Microsoft - VALL-E
+
+#### 3D建模模型
+- NVIDIA - GET3D
+
+### 应用层：
+略
+
+### 商业生态：
+- SaaS订阅模式
+- API接口
+- 企业定制化服务
+- AIGC版权经济
+
+> **注释**
+>
+> **SaaS**：Software as a Service，即软件即服务，用户通过互联网访问软件，而不是下载安装在本地
+>
+> **LAION**：Language AI Open Network，由OpenAI发布的大规模多语言数据集
+
+## 打工人的未来？
+- 技能“贬值”
+- 设计类工作转变为“审核”AIGC
+
+> 从需要3个UI设计师转变为1个UI设计师使用AIGC，那么谁先学会使用AIGC，谁就不会被淘汰。
+
+![alt text](images/get-to-know-aigc/pepe-the-coder.jpg)
