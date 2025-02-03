@@ -1,6 +1,7 @@
 # Deep Learning Study Notes
 
 A comprehensive collection of study notes for fundamental deep learning literature, focusing on practical implementations and theoretical foundations.
+> ⚠️ All writen in CHINESE 
 
 ## 📚 Literature Coverage
 
