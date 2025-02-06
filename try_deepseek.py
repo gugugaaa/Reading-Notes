@@ -1,7 +1,9 @@
 import requests
+import os
 
 # 设置API密钥和URL
-api_key = "sk-2c053ab14b2942f79ee3e943c02e7306"
+api_key = os.environ.get("HF_TOKEN")
+print(api_key)
 base_url = "https://api.deepseek.com/v1"
 
 # 定义请求头
