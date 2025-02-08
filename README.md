@@ -19,6 +19,19 @@ A comprehensive collection of study notes for fundamental deep learning literatu
 - Fine-tuning for Classification
 - Instruction Fine-tuning
 
+### Transformers for NLP and Computer Vision
+- **Author**: Denis Rothman
+- **Publisher**: Packt Publishing Limited (2024)
+- **ISBN**: 978-1-80512-872-4
+
+**Key Topics**:
+- Advanced Transformer Architectures
+- Large Language Models Implementation
+- Vision Transformers
+- Practical Applications with Hugging Face
+- GPT-4V and DALL-E 3 Integration
+- Multi-modal AI Systems
+
 ### Deep Learning for Vision Systems
 - **Author**: Mohamed Elgendy
 - **Publisher**: Manning Publications (2020)
@@ -57,4 +70,4 @@ Discussions and questions are welcome through Issues. Feel free to contribute by
 - Sharing insights
 
 ## 🙏 Acknowledgements
-Special thanks to **DeepSeek** for providing **10CNY API credits**! Their models offer excellent value, performing well for translation and Q&A tasks. The credit allowance has proven more than sufficient, demonstrating great efficiency in use.
+Special thanks to **Gemini** for providing inspiration and motivation for this project. Their free **API access** was always there to use for either *translation or summarization tasks*.
