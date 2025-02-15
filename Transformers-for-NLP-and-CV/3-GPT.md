@@ -110,36 +110,3 @@ response = openai.completions.create( # 或 openai.chat.completions.create()，�
 generated_text = response.choices[0].text.strip()
 print(generated_text)
 ```
-
-## 可解释性、可视化
-
-### BertViz
-![alt text](image.png)
-*正在观察的是 "jumps" 这个词 在第 0 层的注意力分布情况*
-
-*11个颜色对应着第 0 层的 11 个头*
-
-*颜色越深，表示这个头关于这两个词的注意力权重越高*
-
-![alt text](image-1.png)
-*正在观察的是 "jumps" 这个词 在最后一层的注意力分布情况*
-
-*"jumps" 的注意力集中在 "[SEP]" 上*
-
-*说明对整个句子的理解和信息整合，更多地关注句子整体的完成状态*
-
-### SHAP
-Shapley值：（读作“傻逼”哈哈哈）
-**对于一个特定的预测，每个输入特征对这个预测结果有多大的影响？ 是正向影响还是负向影响？**
-
-遍历一个所有的特征子集，计算每个特征对预测结果的边缘贡献（类似概率论的边缘概率），从而得到每个特征的贡献值。
-
-![alt text](image-2.png)
-*红豆生南国，春来发几枝？被判断为消极*
-
-*红色代表支持这个判断，蓝色代表反对这个判断*
-
-*每个词的颜色代表这个词对这个判断的贡献*
-
-### LIME
-局部可解释性模型（Local Interpretable Model-agnostic Explanations）
