@@ -33,3 +33,28 @@ Prompt可以是点/框/粗糙掩码/文本（并没有和图像特征对齐）
     - 通过softmax选择最优的掩码
 
 得到多个候选mask
+
+### CLIP
+![alt text](images/transformers_for_nlp_and_cv/image_rename27.png)
+
+- 图像编码器：ViT/ResNet
+- 文本编码器：BERT
+- 对比学习：InfoNCE Loss，根据相似度打分
+
+一个规模空前的图文对数据集上训练
+
+#### 对齐
+图像编码器和文本编码器的输出可以是不同的
+
+通过线性投影层（Linear Projection）对齐
+
+维度对齐后再计算相似度
+
+#### 训练
+可训练参数：**全量微调**（OpenAI）/只训练投影层
+
+| 模块 | 可训练参数 | 初始化 |
+|------|------------|--------|
+| 图像编码器 | CNN/ViT的参数 | ImageNet预训练 |
+| 文本编码器 | BERT的参数 | BERT预训练 |
+| 线性投影层 | 投影矩阵参数 | 随机初始化 |
