@@ -6,7 +6,7 @@ segment anything model
 - 提示编码器：把提示转换为高维向量
 - 掩码编码器：将图像编码特征与提示信息融合，生成分割掩码（mask）
 
-![alt text](image-2.png)
+![alt text](images/transformers_for_nlp_and_cv/image_rename24.png)
 
 #### 图像编码器
 
@@ -20,7 +20,7 @@ Prompt可以是点/框/粗糙掩码/文本（并没有和图像特征对齐）
 
 #### 掩码编码器
 
-![alt text](image-1.png)
+![alt text](images/transformers_for_nlp_and_cv/image_rename23.png)
 *mask decoder是SAM的核心，上图为mask decoder的结构*
 
 - Transformer 交互融合（把两个解码器的特征对齐）
