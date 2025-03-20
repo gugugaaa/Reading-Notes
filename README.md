@@ -1,73 +1,69 @@
-# Deep Learning Study Notes
+# Deep Learning Study Notes 🧠
 
-A comprehensive collection of study notes for fundamental deep learning literature, focusing on practical implementations and theoretical foundations.
-> ⚠️ All writen in CHINESE 
+This is a comprehensive collection of study notes on fundamental deep learning literature, focusing on practical implementation and theoretical foundations.
+> ⚠️ All original notes are in Chinese
 
-## 📚 Literature Coverage
+## 📚 Included Literature
 
-### Build a Large Language Model (From Scratch)
+### Building Large Language Models from Scratch
 - **Author**: Sebastian Raschka
 - **Publisher**: Manning Publications (2025)
 - **ISBN**: 9781633437166
 
-**Key Topics**:
-- LLM Architecture Design
-- Text Processing and Tokenization
-- Attention Mechanism Implementation
-- GPT Model Construction
-- Self-supervised Pretraining
-- Fine-tuning for Classification
-- Instruction Fine-tuning
+**Core Content**:
+- LLM architecture design
+- Text processing and tokenization
+- Attention mechanism implementation
+- GPT model construction
+- Self-supervised pre-training
+- Classification task fine-tuning
+- Instruction fine-tuning
 
-### Transformers for NLP and Computer Vision
+### Transformer Models for NLP and Computer Vision
 - **Author**: Denis Rothman
 - **Publisher**: Packt Publishing Limited (2024)
 - **ISBN**: 978-1-80512-872-4
 
-**Key Topics**:
-- Advanced Transformer Architectures
-- Large Language Models Implementation
+**Core Content**:
+- Advanced Transformer architectures
 - Vision Transformers
-- Practical Applications with Hugging Face
-- GPT-4V and DALL-E 3 Integration
-- Multi-modal AI Systems
+- Practical applications with Hugging Face
+- Quality control and risk management
+- Multimodal AI systems (CLIP, SAM, etc.)
+- Diffusion model principles
 
-### Deep Learning for Vision Systems
+### Deep Learning for Computer Vision
 - **Author**: Mohamed Elgendy
 - **Publisher**: Manning Publications (2020)
 - **ISBN**: 9781617296192
 
-**Key Topics**:
-- Deep Learning Fundamentals
-- CNN Architecture & Implementation
-- Hyperparameter Optimization
-- Transfer Learning Applications
-- Advanced CNN Architectures
+**Core Content**:
+- Deep learning fundamentals
+- CNN architecture and implementation
+- Hyperparameter optimization
+- Transfer learning applications
+- Advanced CNN architectures
 - Generative Adversarial Networks
 
-## 🛠️ Repository Tools
-The repository includes `note_image_organizer.py` for automated management of learning resources and image assets.
+### OpenManus Framework Analysis
+**Core Content**:
+- Agent system architecture design
+- Tool system design and implementation
+- ReAct pattern in practice
+- Browser automation tools
+- File operations and terminal tools
 
 ## 📝 Note Structure
-- Each book has a dedicated directory
+- Dedicated directory for each book
 - Complete derivations and code implementations
-- Organized screenshots from source materials
+- Organized screenshots of source materials
 - Practical examples and hands-on exercises
 
 ## 📄 License
-This project is licensed under the MIT License. You are free to:
+This project is licensed under the MIT License. You can:
 - Fork this repository
-- Clone specific book notes
-- Use the code under license terms
+- Copy specific book notes
+- Use code under license terms
 
 ## ⚠️ Disclaimer
-All image content is sourced from original books for educational purposes only. Please contact for any copyright concerns.
-
-## 🤝 Contributing
-Discussions and questions are welcome through Issues. Feel free to contribute by:
-- Suggesting improvements
-- Reporting errors
-- Sharing insights
-
-## 🙏 Acknowledgements
-Special thanks to **Gemini** for providing inspiration and motivation for this project. Their free **API access** was always there to use for either *translation or summarization tasks*.
+All image content is from the original books and used for educational purposes only. If there are any copyright concerns, please contact us.
