@@ -34,9 +34,17 @@ OpenManus 于 2025 年 3 月初推出，由团队成员在短短 3 小时内完�
 
 ## 版本信息
 
-本仓库针对 14fa48e8d7eef2baca40984ef339204d5d792840 号 "add mcp" 版本，使用 vscode 的 copilot 集成中，claude 3.7 sonnet thinking 模型对关键代码进行解读。输出结果经略微的人工调整。
+本仓库针对[2025年3月22日的版本](https://github.com/mannaandpoem/OpenManus/commit/c7a3f465da52f1fa10f74e4e24d065c4a7b89d5e)，由于OpenManus更新较快，可能不会保持更新。
 
-目前包含 OpenManus 的两个关键模块，Agent 文件夹和 Tool 文件夹的代码解析。鉴于 OpenManus 更新速度较快，可能不会保持更新，仅供参考。
+---
+
+## 项目解读
+
+使用 vscode 的 copilot 集成中，claude 3.7 sonnet thinking 模型对关键代码进行解读。输出结果经略微的人工调整。
+
+文件夹结构沿用了 MetaGPT 的设计，markdown 笔记的命名以代码的主要类名命名，方便理解。
+
+每个文件夹中，还附带了一个 `README.md` 文件，包含了该模块的概览。
 
 ---
 
