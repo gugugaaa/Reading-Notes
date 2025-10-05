@@ -50,16 +50,6 @@ A simple go through Agent Framework. Written by AI, just for fun.
 - ReAct pattern
 - Browser, File and terminal tools
 
-## knickknacks
-
-### AI fastfood
-
-Notes taken while talking with AI. A shortcut to gain without pay lol.
-
-- fun facts of AIGC
-- Freud's theory walk through
-- ...
-
 ### Deep Learning for Computer Vision
 
 _ISBN 9781617296192_
@@ -68,6 +58,16 @@ _ISBN 9781617296192_
 - Deep learning fundamentals
 - Advanced CNN architectures
 - Generative Adversarial Networks
+
+## Buzz
+
+### AI fastfood
+
+Notes taken while talking with AI. A shortcut to gain without pay lol.
+
+- fun facts of AIGC
+- Freud's theory walk through
+- ...
 
 ---
 
