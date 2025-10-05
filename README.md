@@ -1,69 +1,75 @@
-# Deep Learning Study Notes 🧠
+# Notes Storage
 
-This is a comprehensive collection of study notes on fundamental deep learning literature, focusing on practical implementation and theoretical foundations.
-> ⚠️ All original notes are in Chinese
+Herein I keep my notes on books I read to share.
+> Many notes are in Chinese
 
-## 📚 Included Literature
+## Building Large Language Models from Scratch
 
-### Building Large Language Models from Scratch
-- **Author**: Sebastian Raschka
-- **Publisher**: Manning Publications (2025)
-- **ISBN**: 9781633437166
+_ISBN 9781633437166_
 
-**Core Content**:
-- LLM architecture design
+My **favorate** pop science book! Less than **half a month** to complete.
+
+### Contents
+- LLM architecture
 - Text processing and tokenization
-- Attention mechanism implementation
+- Attention mechanism
 - GPT model construction
 - Self-supervised pre-training
-- Classification task fine-tuning
+- Classification fine-tuning
 - Instruction fine-tuning
 
-### Transformer Models for NLP and Computer Vision
-- **Author**: Denis Rothman
-- **Publisher**: Packt Publishing Limited (2024)
-- **ISBN**: 978-1-80512-872-4
+## Operation Systems Three Easy Pieces
 
-**Core Content**:
-- Advanced Transformer architectures
-- Vision Transformers
-- Practical applications with Hugging Face
-- Quality control and risk management
-- Multimodal AI systems (CLIP, SAM, etc.)
-- Diffusion model principles
+_http://www.ostep.org_
+
+Interesting and clear book about OS. I like it!
+Notes in English
+
+**Currently reading**.
+
+## Transformer Models for NLP and Computer Vision
+
+_ISBN 9781805128724_
+
+I don't like it. 
+Author keeps mentioning a certain topic will be discussed in a given chapter.
+
+**However** when we reach that chapter, only superficial talks and claims we have covered it before.
+
+Not completed. Only broader pop-sci of NLP notes.
+
+## OpenManus Framework
+
+_https://github.com/FoundationAgents/OpenManus_
+
+A simple go through Agent Framework. Written by AI, just for fun.
+
+**Content**:
+- Agent system architecture
+- Tool system
+- ReAct pattern
+- Browser, File and terminal tools
+
+## knickknacks
+
+### AI fastfood
+
+Notes taken while talking with AI. A shortcut to gain without pay lol.
+
+- fun facts of AIGC
+- Freud's theory walk through
+- ...
 
 ### Deep Learning for Computer Vision
-- **Author**: Mohamed Elgendy
-- **Publisher**: Manning Publications (2020)
-- **ISBN**: 9781617296192
 
-**Core Content**:
+_ISBN 9781617296192_
+
+**Content**:
 - Deep learning fundamentals
-- CNN architecture and implementation
-- Hyperparameter optimization
-- Transfer learning applications
 - Advanced CNN architectures
 - Generative Adversarial Networks
 
-### OpenManus Framework Analysis
-**Core Content**:
-- Agent system architecture design
-- Tool system design and implementation
-- ReAct pattern in practice
-- Browser automation tools
-- File operations and terminal tools
+---
 
-## 📝 Note Structure
-- Dedicated directory for each book
-- Complete derivations and code implementations
-- Organized screenshots of source materials
-- Practical examples and hands-on exercises
-
-## 📄 License
-This project is licensed under the MIT License. You can:
-- Fork this repository
-- Copy specific book notes
-- Use code under license terms
-
-## ⚠️ Disclaimer
-All image content is from the original books and used for educational purposes only. If there are any copyright concerns, please contact us.
+> ⚠️ Disclaimer
+> Some screenshot is from original books and used for educational purposes only. please contact me if any copyright concerns.
